@@ -3,7 +3,7 @@
   "repo": "nk-components/request-timeout",
   "description": "Like setTimeout() but with requestAnimationFrame()",
   "version": "0.0.1",
-  "keywords": [],
+  "keywords": ["requestAnimationFrame", "setTimeout"],
   "dependencies": {
     "component/raf": "*",
     "nk-components/time-now": "*"
