@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+  <script src="build/build.js"></script>
+  <script>
+    var requestTimeout = require('request-timeout');
+    var start = Date.now();
+
+    requestTimeout(300, function() {
+      console.log(Date.now() - start + ' should be > 300');
+    });
+
+    var id = requestTimeout(300, function() {
+      console.log('should not be executed');
+    });
+
+    setTimeout(function() {
+      requestTimeout.clear(id);
+    }, 100);
+  </script>
+</head>
+<body>
+</body>
+</html>
+
