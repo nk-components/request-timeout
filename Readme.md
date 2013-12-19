@@ -3,6 +3,11 @@
 
   Like setTimeout() but with requestAnimationFrame()
 
+  > setTimeout doesn’t take into account what else is happening in the browser.  
+  > [Source](http://creativejs.com/resources/requestanimationframe/)
+  
+  You can also find `requestInterval` component [here](https://github.com/nk-components/request-interval).
+  
 ## Installation
 
   Install with [component(1)](http://component.io):
@@ -28,3 +33,5 @@
 ## License
 
   MIT
+  
+  Inspired by [Joe Lambert's Gist](https://gist.github.com/joelambert/1002116#file-requesttimeout-js).
