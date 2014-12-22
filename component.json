@@ -2,7 +2,7 @@
   "name": "request-timeout",
   "repo": "nk-components/request-timeout",
   "description": "Like setTimeout() but with requestAnimationFrame()",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "keywords": [
     "requestAnimationFrame",
     "setTimeout"

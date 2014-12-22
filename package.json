@@ -1,6 +1,6 @@
 {
   "name": "nk-request-timeout",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Like setTimeout() but using requestAnimationFrame()",
   "main": "index.js",
   "scripts": {
