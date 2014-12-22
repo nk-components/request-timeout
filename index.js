@@ -3,10 +3,8 @@
 var raf = require('raf');
 var now = require('time-now');
 
-
 exports = module.exports = timeout;
-
-function timeout(delay, fn) {
+function timeout(delay, fn, ctx) {
   var start = now();
   var data = Object.create(null);
   data.id = raf(loop);
@@ -15,14 +13,13 @@ function timeout(delay, fn) {
 
   function loop() {
     (now() - start) >= delay
-      ? fn.call()
+      ? fn.call(ctx)
       : data.id = raf(loop);
   }
 }
 
 
 exports.clear = clearTimeout;
-
 function clearTimeout(data) {
   raf.cancel(data.id);
 }
