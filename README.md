@@ -1,4 +1,4 @@
-# request-timeout
+# request-timeout [![Build Status](https://travis-ci.org/nk-components/request-timeout.svg)](https://travis-ci.org/nk-components/request-timeout)
 
 Like `setTimeout()` but using `requestAnimationFrame()`.
 
