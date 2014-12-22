@@ -1,6 +1,6 @@
 {
   "name": "request-timeout",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Like setTimeout() but using requestAnimationFrame()",
   "main": "index.js",
   "scripts": {
