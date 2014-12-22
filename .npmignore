@@ -1,0 +1,6 @@
+node_modules
+.editorconfig
+.travis.yml
+test
+bundle.js
+component.json
