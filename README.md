@@ -12,7 +12,7 @@ You can also find `requestInterval` component [here](https://github.com/nk-compo
 With [npm](http://npmjs.org) do:
 
 ```bash
-$ npm install request-timeout --save
+$ npm install nk-request-timeout --save
 ```
 
 Install with [component(1)](http://component.io):
